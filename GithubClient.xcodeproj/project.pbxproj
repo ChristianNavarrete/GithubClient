@@ -7,14 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A913A8B31BF56E9900DACFC0 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913A8B21BF56E9900DACFC0 /* Repository.swift */; };
+		A913A8B71BF66E7600DACFC0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913A8B61BF66E7600DACFC0 /* ProfileViewController.swift */; };
+		A913A8B91BF699F900DACFC0 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913A8B81BF699F900DACFC0 /* Owner.swift */; };
+		A913A8BB1BF6AE5900DACFC0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913A8BA1BF6AE5900DACFC0 /* User.swift */; };
+		A913A8BD1BF6B69B00DACFC0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913A8BC1BF6B69B00DACFC0 /* SearchViewController.swift */; };
+		A94E6E0F1BF9028700408BA1 /* SearchUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E6E0E1BF9028700408BA1 /* SearchUserViewController.swift */; };
+		A94E6E111BF906AC00408BA1 /* CustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E6E101BF906AC00408BA1 /* CustomFlowLayout.swift */; };
+		A94E6E131BF906DF00408BA1 /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E6E121BF906DF00408BA1 /* UserCollectionViewCell.swift */; };
+		A94E6E151BF9556C00408BA1 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E6E141BF9556C00408BA1 /* CustomSegue.swift */; };
+		A94E6E171BF9589200408BA1 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E6E161BF9589200408BA1 /* UserViewController.swift */; };
+		A9539B341BF2E283008F8B4E /* GithubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9539B331BF2E282008F8B4E /* GithubService.swift */; };
+		A9539B361BF40539008F8B4E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9539B351BF40539008F8B4E /* HomeViewController.swift */; };
 		A9AB06931BF125A20047CA9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AB06921BF125A20047CA9F /* AppDelegate.swift */; };
 		A9AB06951BF125A20047CA9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AB06941BF125A20047CA9F /* ViewController.swift */; };
 		A9AB06981BF125A20047CA9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AB06961BF125A20047CA9F /* Main.storyboard */; };
 		A9AB069A1BF125A20047CA9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9AB06991BF125A20047CA9F /* Assets.xcassets */; };
 		A9AB069D1BF125A20047CA9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AB069B1BF125A20047CA9F /* LaunchScreen.storyboard */; };
+		A9AB06A51BF128440047CA9F /* OAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AB06A41BF128440047CA9F /* OAuthClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A913A8B21BF56E9900DACFC0 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		A913A8B61BF66E7600DACFC0 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A913A8B81BF699F900DACFC0 /* Owner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		A913A8BA1BF6AE5900DACFC0 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A913A8BC1BF6B69B00DACFC0 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A94E6E0E1BF9028700408BA1 /* SearchUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUserViewController.swift; sourceTree = "<group>"; };
+		A94E6E101BF906AC00408BA1 /* CustomFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFlowLayout.swift; sourceTree = "<group>"; };
+		A94E6E121BF906DF00408BA1 /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		A94E6E141BF9556C00408BA1 /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		A94E6E161BF9589200408BA1 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		A9539B331BF2E282008F8B4E /* GithubService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubService.swift; sourceTree = "<group>"; };
+		A9539B351BF40539008F8B4E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A9AB068F1BF125A20047CA9F /* GithubClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9AB06921BF125A20047CA9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9AB06941BF125A20047CA9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +47,7 @@
 		A9AB06991BF125A20047CA9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9AB069C1BF125A20047CA9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9AB069E1BF125A20047CA9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AB06A41BF128440047CA9F /* OAuthClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +81,20 @@
 			isa = PBXGroup;
 			children = (
 				A9AB06921BF125A20047CA9F /* AppDelegate.swift */,
+				A9AB06A41BF128440047CA9F /* OAuthClient.swift */,
+				A9539B331BF2E282008F8B4E /* GithubService.swift */,
 				A9AB06941BF125A20047CA9F /* ViewController.swift */,
+				A9539B351BF40539008F8B4E /* HomeViewController.swift */,
+				A913A8B61BF66E7600DACFC0 /* ProfileViewController.swift */,
+				A913A8BC1BF6B69B00DACFC0 /* SearchViewController.swift */,
+				A94E6E0E1BF9028700408BA1 /* SearchUserViewController.swift */,
+				A94E6E161BF9589200408BA1 /* UserViewController.swift */,
+				A913A8B21BF56E9900DACFC0 /* Repository.swift */,
+				A913A8BA1BF6AE5900DACFC0 /* User.swift */,
+				A913A8B81BF699F900DACFC0 /* Owner.swift */,
+				A94E6E101BF906AC00408BA1 /* CustomFlowLayout.swift */,
+				A94E6E121BF906DF00408BA1 /* UserCollectionViewCell.swift */,
+				A94E6E141BF9556C00408BA1 /* CustomSegue.swift */,
 				A9AB06961BF125A20047CA9F /* Main.storyboard */,
 				A9AB06991BF125A20047CA9F /* Assets.xcassets */,
 				A9AB069B1BF125A20047CA9F /* LaunchScreen.storyboard */,
@@ -96,6 +135,7 @@
 				TargetAttributes = {
 					A9AB068E1BF125A20047CA9F = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7JPV3NX8Z6;
 					};
 				};
 			};
@@ -135,8 +175,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A913A8BD1BF6B69B00DACFC0 /* SearchViewController.swift in Sources */,
+				A94E6E171BF9589200408BA1 /* UserViewController.swift in Sources */,
+				A9539B361BF40539008F8B4E /* HomeViewController.swift in Sources */,
+				A9AB06A51BF128440047CA9F /* OAuthClient.swift in Sources */,
 				A9AB06951BF125A20047CA9F /* ViewController.swift in Sources */,
+				A94E6E151BF9556C00408BA1 /* CustomSegue.swift in Sources */,
+				A94E6E0F1BF9028700408BA1 /* SearchUserViewController.swift in Sources */,
+				A9539B341BF2E283008F8B4E /* GithubService.swift in Sources */,
+				A913A8B91BF699F900DACFC0 /* Owner.swift in Sources */,
+				A913A8BB1BF6AE5900DACFC0 /* User.swift in Sources */,
 				A9AB06931BF125A20047CA9F /* AppDelegate.swift in Sources */,
+				A913A8B31BF56E9900DACFC0 /* Repository.swift in Sources */,
+				A94E6E111BF906AC00408BA1 /* CustomFlowLayout.swift in Sources */,
+				A913A8B71BF66E7600DACFC0 /* ProfileViewController.swift in Sources */,
+				A94E6E131BF906DF00408BA1 /* UserCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +300,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GithubClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AsteroidBlues.GithubClient;
@@ -258,6 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GithubClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AsteroidBlues.GithubClient;
@@ -284,6 +339,7 @@
 				A9AB06A31BF125A20047CA9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
