@@ -8,12 +8,29 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    var repos = [Repository]() {
+        didSet {
+            self.tableView.reloadData()
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
+        GithubService.grabRepositories { (repositories) -> () in
+            self.repos = repositories
+        }
+        
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +38,42 @@ class HomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        
+        if segue.identifier == "showProfile" {
+            
+            let viewController = segue.destinationViewController as! ProfileViewController
+            guard let index = self.tableView.indexPathForSelectedRow else { return }
+            print("index path selected \(index)")
+            viewController.repository = self.repos[index.row]
+            
+            print("self.repos[index] name \(self.repos[index.row].name)")
+
+            
+        }
+        
     }
-    */
+    
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        
+        
+        
+    }
+    
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return repos.count
+    }
+    
+
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("repoCell")! as UITableViewCell
+        
+        cell.textLabel?.text = repos[indexPath.row].name
+        cell.detailTextLabel?.text = repos[indexPath.row].url
+        return cell
+    }
 
 }
